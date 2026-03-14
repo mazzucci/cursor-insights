@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "beforeSubmitPrompt": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "afterAgentThought": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "postToolUse": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "postToolUseFailure": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "afterShellExecution": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "afterMCPExecution": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "afterFileEdit": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "afterAgentResponse": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "preCompact": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "subagentStop": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "stop": [{ "command": "bash ./hooks/trace-hook.sh" }],
+    "sessionEnd": [{ "command": "bash ./hooks/trace-hook.sh" }]
+  }
+}

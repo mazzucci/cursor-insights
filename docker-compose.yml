@@ -1,0 +1,12 @@
+services:
+  phoenix:
+    image: arizephoenix/phoenix:13.15.0
+    container_name: cursor-insights-phoenix
+    ports:
+      - "6006:6006"
+    volumes:
+      - phoenix-data:/data
+    restart: unless-stopped
+
+volumes:
+  phoenix-data:

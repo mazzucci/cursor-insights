@@ -1,0 +1,8 @@
+{
+  "name": "cursor-insights",
+  "version": "0.1.0",
+  "description": "Session tracing, search, and observability for Cursor agents via Phoenix",
+  "author": "stelian.matei",
+  "license": "MIT",
+  "keywords": ["observability", "tracing", "phoenix", "insights", "session-replay"]
+}
